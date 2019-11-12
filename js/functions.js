@@ -28,15 +28,15 @@ function changeFont() {
 }
 
 
-function shuffledWord(word) {
+function shuffledWord (word){
 	var shuffledWord = '';
 	word = word.split('');
-	while(word.length > 0) {
-		shuffledWord += word.splice(word.length * Math.random() << 0, 1);
+	while (word.length > 0) {
+		shuffledWord +=  word.splice(word.length * Math.random() << 0, 1);
 	}
 	return shuffledWord;
 }
 
-function grayBackground() {
-	document.getElementById("page").style.backgroundColor = "gray";
-}
+	function myFunction() {
+		document.getElementById("page").style.backgroundColor = "gray";
+	}
