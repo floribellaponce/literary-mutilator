@@ -5,11 +5,21 @@
 	<title> Ronnie James Dio Mutilator</title>
 	<script src="js/functions.js"></script>
 </head>
-<body>
-<header>
-	<h1>Ronnie James Dio</h1>
+<body id="page" onkeydown="myFunction()">
+<header class="word">
+	<h1 align="center" id="word">Ronnie James Dio</h1>
+	<!--
+	<button type="button" onclick="shuffledWord()">Shuffle</button>
+	-->
+	<div align="center">
+		<button type="button" onclick="changeColor();">Make Text Red</button>
+		<button type="button" onclick="changeFont();">Change Font Style</button>
+	</div>
+	<div align="center">
+		Press DOWN keyboard button to change color oc background.
+	</div>
 </header>
-<div id="text">
+<div id="text" align="center">
 	<h3> All The Fools Sailed Away </h3>
 	<p>There's perf ect harmony in the rising and the falling of the sea. And as we sail along I never fail to be astounded
 		by the things we'll do for promises and a song. We are the innocent, we are the damned. We were caught in the middle
@@ -55,6 +65,5 @@
 		cry. Scream another lullaby. Jack be nimble, Jack be slick. Take the money, get out quick. Slow and steady, so much
 		time to commit another TV Crime, TV Crime. </p>
 </div>
-<button type="button" onclick="changeColor();">Make Text Red</button>
 </body>
 </html>
